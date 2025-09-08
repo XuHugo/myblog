@@ -1,412 +1,233 @@
 <!DOCTYPE html>
-<html lang=zh>
-<head>
-  <meta charset="utf-8">
-  
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-  <meta name="renderer" content="webkit">
-  <meta http-equiv="Cache-Control" content="no-transform" />
-  <meta http-equiv="Cache-Control" content="no-siteapp" />
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="format-detection" content="telephone=no,email=no,adress=no">
-  <!-- Color theme for statusbar -->
-  <meta name="theme-color" content="#000000" />
-  <!-- 强制页面在当前窗口以独立页面显示,防止别人在框架里调用页面 -->
-  <meta http-equiv="window-target" content="_top" />
-  
-  
-  <title>归档: 2025/1 | Kent</title>
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Kent&#39;s Blog">
-<meta property="og:url" content="http://example.com/archives/2025/01/index.html">
-<meta property="og:site_name" content="Kent&#39;s Blog">
-<meta property="og:locale" content="zh_CN">
-<meta property="article:author" content="Kent">
-<meta name="twitter:card" content="summary">
-  <!-- Canonical links -->
-  <link rel="canonical" href="http://example.com/archives/2025/01/index.html">
-  
-    <link rel="alternate" href="/atom.xml" title="Kent&#39;s Blog" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png" type="image/x-icon">
-  
-  
-<link rel="stylesheet" href="/css/style.css">
+<html lang="zh-CN">
 
-  
-  
-  
-  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    
+      <link rel="icon" href="/favicon.png" />
+    
+
+    <title>
+        
+          Kent&#39;s Blog
+        
+    </title>
+
+    <!-- Spectre.css framework -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.5.9/spectre.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.5.9/spectre-exp.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.5.9/spectre-icons.min.css">
+
+    <!-- theme css & js -->
+    
+<link rel="stylesheet" href="/css/book.css">
+
+    
+<script src="/js/book.js"></script>
+
+
+    <!-- tocbot -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+    
+    <!-- katex -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zooming/2.1.1/zooming.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const zooming = new Zooming()
+    zooming.listen('.book-content img')
+})
+</script>
+
 <meta name="generator" content="Hexo 7.3.0"></head>
 
+<body>
 
-<body class="main-center" itemscope itemtype="http://schema.org/WebPage">
-  <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-  <div class="slimContent">
-    <div class="navbar-header">
-      
-      
-      <div class="profile-block text-center">
-        <a id="avatar" href="https://github.com/XuHugo" target="_blank">
-          <img class="img-circle img-rotate" src="/images/avatar.jpg" width="200" height="200">
-        </a>
-        <h2 id="name" class="hidden-xs hidden-sm">Kent</h2>
-        <h3 id="title" class="hidden-xs hidden-sm hidden-md">Web3.0 Developer</h3>
-        <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Beijing, China</small>
-      </div>
-      
-      <div class="search" id="search-form-wrap">
+<div class="book-container">
+  <div class="book-sidebar">
+    <div class="book-brand">
+  <a href="/">
+    <img src="/favicon.png">
+    <span>KENT&#39;S BLOG</span>
+  </a>
+</div>
+    <div id="menu" class="book-menu hide">
+  <h1 id="网站导航"><a href="#网站导航" class="headerlink" title="网站导航"></a>网站导航</h1><h2 id="📚-内容分类"><a href="#📚-内容分类" class="headerlink" title="📚 内容分类"></a>📚 内容分类</h2><ul>
+<li><a href="/">首页</a> - 欢迎页面</li>
+<li><a href="/archives">文章归档</a> - 所有文章</li>
+<li><a href="/categories">分类浏览</a> - 按分类查看</li>
+<li><a href="/tags">标签云</a> - 按标签查看</li>
+</ul>
+<h2 id="🔗-专题内容"><a href="#🔗-专题内容" class="headerlink" title="🔗 专题内容"></a>🔗 专题内容</h2><h3 id="Web3-0-开发"><a href="#Web3-0-开发" class="headerlink" title="Web3.0 开发"></a>Web3.0 开发</h3><ul>
+<li><a href="/categories/Dapp">Dapp 开发</a></li>
+<li><a href="/tags/solidity">智能合约</a></li>
+<li><a href="/tags/blockchain">区块链技术</a></li>
+</ul>
+<h3 id="编程语言"><a href="#编程语言" class="headerlink" title="编程语言"></a>编程语言</h3><ul>
+<li><a href="/tags/solidity">Solidity</a></li>
+<li><a href="/tags/rust">Rust</a></li>
+<li><a href="/tags/web3">Web3</a></li>
+</ul>
+<h2 id="👤-个人信息"><a href="#👤-个人信息" class="headerlink" title="👤 个人信息"></a>👤 个人信息</h2><ul>
+<li><a href="/about">关于我</a></li>
+<li><a href="/repository">项目展示</a></li>
+<li><a href="/books">书单推荐</a></li>
+<li><a href="/links">友情链接</a></li>
+</ul>
+<hr>
+<p><em>探索区块链世界，构建去中心化未来</em></p>
 
-    <form class="search-form sidebar-form">
-        <div class="input-group">
-            <input type="text" class="search-form-input form-control" placeholder="搜索" />
-            <span class="input-group-btn">
-                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i class="icon icon-search"></i></button>
-            </span>
-        </div>
-    </form>
-    <div class="ins-search">
-  <div class="ins-search-mask"></div>
-  <div class="ins-search-container">
-    <div class="ins-input-wrapper">
-      <input type="text" class="ins-search-input" placeholder="想要查找什么..." x-webkit-speech />
-      <button type="button" class="close ins-close ins-selectable" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-    </div>
-    <div class="ins-section-wrapper">
-      <div class="ins-section-container"></div>
-    </div>
-  </div>
 </div>
 
 
-</div>
-      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
-      <ul class="nav navbar-nav main-nav ">
-        
-        
-        <li class="menu-item menu-item-home">
-          <a href="/.">
-            
-            <i class="icon icon-home-fill"></i>
-            
-            <span class="menu-title">首页</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives">
-            
-            <i class="icon icon-archives-fill"></i>
-            
-            <span class="menu-title">归档</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories">
-            
-            <i class="icon icon-folder"></i>
-            
-            <span class="menu-title">分类</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags">
-            
-            <i class="icon icon-tags"></i>
-            
-            <span class="menu-title">标签</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-repository">
-          <a href="/repository">
-            
-            <i class="icon icon-project"></i>
-            
-            <span class="menu-title">项目</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-books">
-          <a href="/books">
-            
-            <i class="icon icon-book-fill"></i>
-            
-            <span class="menu-title">书单</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-links">
-          <a href="/links">
-            
-            <i class="icon icon-friendship"></i>
-            
-            <span class="menu-title">友链</span>
-          </a>
-        </li>
-        
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about">
-            
-            <i class="icon icon-cup-fill"></i>
-            
-            <span class="menu-title">关于</span>
-          </a>
-        </li>
-        
-      </ul>
-      
-	
-    <ul class="social-links">
-    	
-        <li><a href="https://github.com/XuHugo" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
-        
-        <li><a href="https://github.com/XuHugo" target="_blank" title="Telegram" data-toggle=tooltip data-placement=top><i class="icon icon-Telegram"></i></a></li>
-        
-        <li><a href="/xq-310@163.com" target="_blank" title="Email" data-toggle=tooltip data-placement=top><i class="icon icon-email"></i></a></li>
-        
-    </ul>
+<script src="/js/book-menu.js"></script>
 
-    </nav>
   </div>
+
+  <div class="sidebar-toggle" onclick="sidebar_toggle()" onmouseover="add_inner()" onmouseleave="remove_inner()">
+  <div class="sidebar-toggle-inner"></div>
+</div>
+
+<script>
+function add_inner() {
+  let inner = document.querySelector('.sidebar-toggle-inner')
+  inner.classList.add('show')  
+}
+
+function remove_inner() {
+  let inner = document.querySelector('.sidebar-toggle-inner')
+  inner.classList.remove('show')
+}
+
+function sidebar_toggle() {
+    let sidebar_toggle = document.querySelector('.sidebar-toggle')
+    let sidebar = document.querySelector('.book-sidebar')
+    let content = document.querySelector('.off-canvas-content')
+    if (sidebar_toggle.classList.contains('extend')) { // show
+        sidebar_toggle.classList.remove('extend')
+        sidebar.classList.remove('hide')
+        content.classList.remove('extend')
+    }
+    else { // hide
+        sidebar_toggle.classList.add('extend')
+        sidebar.classList.add('hide')
+        content.classList.add('extend')
+    }
+}
+</script>
+
+  <div class="off-canvas-content">
+    <div class="columns">
+      <div class="column col-10 col-lg-12">
+        <div class="book-navbar">
+          <!-- For Responsive Layout -->
+
+<header class="navbar">
+  <section class="navbar-section">
+    <a onclick="open_sidebar()">
+      <i class="icon icon-menu"></i>
+    </a>
+  </section>
 </header>
 
-  
-    <aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
-  <div class="slimContent">
-    
-      <div class="widget">
-    <h3 class="widget-title">公告</h3>
-    <div class="widget-body">
-        <div id="board">
-            <div class="content">
-                <p>欢迎交流与分享经验!</p>
-            </div>
         </div>
+        <div class="book-content">
+          <div class='book-archive'>
+  <!-- Title -->
+  
+    <h1>Archives</h1>
+  
+
+  
+    <!-- Split post by year -->
+    
+  
+
+  
+      <div class="years">
+          <h2>2025</h2>
+          <ul class="archive-list-item">
+          
+              <li>
+                <span>2025-01-25</span>
+                <a href="/2025/01/25/Dapp/">
+                  Dapp
+                </a>
+              </li>
+          
+              <li>
+                <span>2025-01-25</span>
+                <a href="/2025/01/25/hello-world/">
+                  Hello World
+                </a>
+              </li>
+          
+          </ul>
+      </div>
+  
+
+  
+</div>
+        </div>
+      </div>
+      <div class="column col-2 hide-lg">
+        <div class="book-post-info">
+  
+    <div class="book-post-meta">
+
+  <div class="author">
+
+    <!-- Author image -->
+    <div class="author-img">
+      
+        <figure
+          class="avatar avatar-lg"
+          data-initial="K"
+          style="background-color: #3b4351;">
+        </figure>
+      
     </div>
+
+    <!-- Author title -->
+    <div class="author-title">
+      <div>Kent</div>
+      <div></div>
+    </div>
+  </div>
+
+  
+
+  <div class="divider"></div>
+</div>
+  
+
+  <div class="book-tocbot">
+</div>
+<div class="book-tocbot-menu">
+  <a class="book-toc-expand" onclick="expand_toc()">Expand all</a>
+  <a onclick="go_top()">Back to top</a>
+  <a onclick="go_bottom()">Go to bottom</a>
 </div>
 
-    
-      
-  <div class="widget">
-    <h3 class="widget-title">分类</h3>
-    <div class="widget-body">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Dapp/">Dapp</a><span class="category-list-count">1</span></li></ul>
-    </div>
-  </div>
 
+<script src="/js/book-toc.js"></script>
 
-    
-      
-  <div class="widget">
-    <h3 class="widget-title">标签</h3>
-    <div class="widget-body">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/dapp/" rel="tag">dapp</a><span class="tag-list-count">1</span></li></ul>
-    </div>
-  </div>
-
-
-    
-      
-  <div class="widget">
-    <h3 class="widget-title">标签云</h3>
-    <div class="widget-body tagcloud">
-      <a href="/tags/dapp/" style="font-size: 13px;">dapp</a>
-    </div>
-  </div>
-
-    
-      
-  <div class="widget">
-    <h3 class="widget-title">归档</h3>
-    <div class="widget-body">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/01/">一月 2025</a><span class="archive-list-count">2</span></li></ul>
-    </div>
-  </div>
-
-
-    
-      
-  <div class="widget">
-    <h3 class="widget-title">最新文章</h3>
-    <div class="widget-body">
-      <ul class="recent-post-list list-unstyled no-thumbnail">
-        
-          <li>
-            
-            <div class="item-inner">
-              <p class="item-category">
-                <a class="category-link" href="/categories/Dapp/">Dapp</a>
-              </p>
-              <p class="item-title">
-                <a href="/2025/01/25/Dapp/" class="title">Dapp</a>
-              </p>
-              <p class="item-date">
-                <time datetime="2025-01-25T12:20:29.000Z" itemprop="datePublished">2025-01-25</time>
-              </p>
-            </div>
-          </li>
-          
-          <li>
-            
-            <div class="item-inner">
-              <p class="item-category">
-                
-              </p>
-              <p class="item-title">
-                <a href="/2025/01/25/hello-world/" class="title">Hello World</a>
-              </p>
-              <p class="item-date">
-                <time datetime="2025-01-24T16:25:47.167Z" itemprop="datePublished">2025-01-25</time>
-              </p>
-            </div>
-          </li>
-          
-      </ul>
+</div>
+      </div>
     </div>
   </div>
   
-
-    
-  </div>
-</aside>
-
-  
-  
-<main class="main" role="main">
-  	<article class="content article article-archives article-type-list" itemscope="">
-	    <header class="article-header">
-	      <h1 itemprop="title">归档: 2025/1</h1>
-	      <p class="text-muted">共 2 篇文章</p>
-	    </header>
-	    <div class="article-body">
-	      
-  
-  
-    
-    
-      
-      
-      <section class="panel panel-default b-no">
-        <div class="panel-heading" role="tab">
-          <h3 class="panel-title">
-            <a data-toggle="collapse" href="#collapse2025" aria-expanded="true">
-              <i class="icon icon-calendar-plus text-active"></i><i class="icon icon-calendar-minus text"></i>
-              2025
-            </a>
-            <!-- <a href="/archives/2025" class="archive-year">2025</a> -->
-          </h3>
-        </div>
-        <div id="collapse2025" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading2025">
-        <div class="panel-body">
-          <div class="collection">
-    
-    
-<a href="/2025/01/25/Dapp/" class="collection-item"   itemprop="url">
-  <time datetime="2025-01-25T12:20:29.000Z" itemprop="datePublished">2025-01-25</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> Dapp
-</a>
-
-
-  
-    
-    
-    
-<a href="/2025/01/25/hello-world/" class="collection-item"   itemprop="url">
-  <time datetime="2025-01-24T16:25:47.167Z" itemprop="datePublished">2025-01-25</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> Hello World
-</a>
-
-
-  
-  
-    </div></div></div></section>
-  
-
-	    </div>
-  	</article>
-  	 	
-</main>
-
-  <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
-	
-	
-    <ul class="social-links">
-    	
-        <li><a href="https://github.com/XuHugo" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
-        
-        <li><a href="https://github.com/XuHugo" target="_blank" title="Telegram" data-toggle=tooltip data-placement=top><i class="icon icon-Telegram"></i></a></li>
-        
-        <li><a href="/xq-310@163.com" target="_blank" title="Email" data-toggle=tooltip data-placement=top><i class="icon icon-email"></i></a></li>
-        
-    </ul>
-
-    <div class="copyright">
-    	
-        <div class="publishby">
-        	Theme by <a href="https://github.com/cofess" target="_blank"> cofess </a>base on <a href="https://github.com/cofess/hexo-theme-pure" target="_blank">pure</a>.
-        </div>
-    </div>
-</footer>
-  <script src="//cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
-<script>
-window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
-</script>
-
-<script src="/js/plugin.min.js"></script>
-
-
-<script src="/js/application.js"></script>
-
-
-    <script>
-(function (window) {
-    var INSIGHT_CONFIG = {
-        TRANSLATION: {
-            POSTS: '文章',
-            PAGES: '页面',
-            CATEGORIES: '分类',
-            TAGS: '标签',
-            UNTITLED: '(未命名)',
-        },
-        ROOT_URL: '/',
-        CONTENT_URL: '/content.json',
-    };
-    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-})(window);
-</script>
-
-<script src="/js/insight.js"></script>
-
-
-
-
-
-
-
-
-
-
-
+  <a class="off-canvas-overlay" onclick="hide_canvas()"></a>
+</div>
 
 </body>
 </html>
+
+
+<script src="/js/book.js"></script>
