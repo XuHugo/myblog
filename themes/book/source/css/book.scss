@@ -68,7 +68,7 @@ img {
   @import "_partials/book-content";
 
   &.extend {
-    margin-left: 0;
+    margin-left: 0; // 恢复：extend状态下移除左边距
   }
 
   @media all and (min-width: $pc-media) {
@@ -77,11 +77,11 @@ img {
   }
 
   @media all and (min-width: $pad-media) and (max-width: $pcs-media) {
-    padding: $content-padding-xl $content-padding-lg;
+    padding: $content-padding-xl $content-padding-lg; // 恢复：平板尺寸下移除左边距
   }
 
   @media all and (max-width: $pads-media) {
-    padding: $content-padding-xl $content-padding-md;
+    padding: $content-padding-xl $content-padding-md; // 恢复：小屏幕下移除左边距
   }
 }
 

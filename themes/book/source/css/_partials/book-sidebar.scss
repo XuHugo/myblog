@@ -12,7 +12,7 @@
   }
 
   &.hide {
-    transform: translateX(-100%);
+    transform: translateX(-100%); // 恢复：隐藏状态下移到屏幕外
   }
 
   @media all and (min-width: $pc-media) {
@@ -20,7 +20,7 @@
   }
 
   @media all and (max-width: $pcs-media) {
-    transform: translateX(-100%);
+    transform: translateX(-100%); // 恢复：小屏幕下默认隐藏
   }
 
   @import "../_components/brand";
